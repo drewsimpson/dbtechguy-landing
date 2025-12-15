@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Email for Trade Businesses | Coyaba Enterprises</title>
+    <meta name="description" content="Get professional email for your South Florida trade business. 20+ years experience helping contractors, plumbers, electricians, and HVAC companies look legit online.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --black: #0a0a0a;
+            --dark: #1a1a1a;
+            --gold: #d4a537;
+            --gold-light: #e8c76b;
+            --green: #2d8a4e;
+            --green-dark: #1e6b3a;
+            --white: #ffffff;
+            --gray: #a0a0a0;
+            --gray-light: #f5f5f5;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Source Sans 3', sans-serif;
+            background: var(--black);
+            color: var(--white);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Subtle texture overlay */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+            opacity: 0.03;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Navigation */
+        nav {
+            padding: 24px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            background: linear-gradient(to bottom, rgba(10,10,10,0.95) 0%, rgba(10,10,10,0) 100%);
+            transition: background 0.3s ease;
+        }
+
+        nav.scrolled {
+            background: rgba(10,10,10,0.98);
+            backdrop-filter: blur(10px);
+        }
+
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+
+        .logo-icon {
+            width: 44px;
+            height: 44px;
+            background: linear-gradient(135deg, var(--green) 0%, var(--green-dark) 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        .logo-text {
+            font-family: 'Playfair Display', serif;
+            font-size: 22px;
+            font-weight: 600;
+            color: var(--white);
+        }
+
+        .nav-cta {
+            background: var(--gold);
+            color: var(--black);
+            padding: 12px 28px;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-cta:hover {
+            background: var(--gold-light);
+            transform: translateY(-2px);
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 120px 0 80px;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50%;
+            height: 100%;
+            background: radial-gradient(ellipse at top right, rgba(45, 138, 78, 0.15) 0%, transparent 60%);
+            pointer-events: none;
+        }
+
+        .hero-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            align-items: center;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(212, 165, 55, 0.1);
+            border: 1px solid rgba(212, 165, 55, 0.3);
+            padding: 8px 16px;
+            border-radius: 50px;
+            font-size: 14px;
+            color: var(--gold);
+            margin-bottom: 24px;
+        }
+
+        .hero-badge::before {
+            content: '✓';
+            font-weight: bold;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(40px, 5vw, 58px);
+            font-weight: 700;
+            line-height: 1.15;
+            margin-bottom: 24px;
+        }
+
+        .hero h1 span {
+            color: var(--gold);
+        }
+
+        .hero-subtitle {
+            font-size: 20px;
+            color: var(--gray);
+            margin-bottom: 40px;
+            max-width: 480px;
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            background: var(--gold);
+            color: var(--black);
+            padding: 16px 32px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-primary:hover {
+            background: var(--gold-light);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(212, 165, 55, 0.3);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--white);
+            padding: 16px 32px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            border-radius: 6px;
+            border: 2px solid rgba(255,255,255,0.2);
+            transition: all 0.3s ease;
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--white);
+            background: rgba(255,255,255,0.05);
+        }
+
+        /* Comparison Cards */
+        .hero-visual {
+            position: relative;
+        }
+
+        .comparison-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            transform: perspective(1000px) rotateY(-5deg);
+        }
+
+        .comparison-card {
+            background: var(--white);
+            border-radius: 16px;
+            padding: 32px 24px;
+            text-align: center;
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+
+        .comparison-card:hover {
+            transform: translateY(-8px);
+        }
+
+        .comparison-card.before {
+            opacity: 0.7;
+            filter: grayscale(30%);
+        }
+
+        .comparison-card.after {
+            box-shadow: 0 0 0 3px var(--green), 0 20px 40px rgba(45, 138, 78, 0.3);
+        }
+
+        .comparison-label {
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        .comparison-card.before .comparison-label {
+            color: #999;
+        }
+
+        .comparison-card.after .comparison-label {
+            color: var(--green);
+        }
+
+        .comparison-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--black);
+            margin-bottom: 4px;
+        }
+
+        .comparison-company {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 24px;
+        }
+
+        .comparison-email {
+            font-size: 13px;
+            padding: 12px;
+            border-radius: 8px;
+            word-break: break-all;
+        }
+
+        .comparison-card.before .comparison-email {
+            background: #f0f0f0;
+            color: #666;
+        }
+
+        .comparison-card.after .comparison-email {
+            background: linear-gradient(135deg, var(--green) 0%, var(--green-dark) 100%);
+            color: var(--white);
+            font-weight: 600;
+        }
+
+        /* Stats Bar */
+        .stats-bar {
+            background: var(--dark);
+            padding: 60px 0;
+            border-top: 1px solid rgba(255,255,255,0.05);
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px;
+            text-align: center;
+        }
+
+        .stat-item h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: var(--gold);
+            margin-bottom: 8px;
+        }
+
+        .stat-item p {
+            color: var(--gray);
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Problem Section */
+        .problem-section {
+            padding: 100px 0;
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 60px;
+        }
+
+        .section-label {
+            color: var(--gold);
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 16px;
+        }
+
+        .section-header h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(32px, 4vw, 44px);
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .section-header p {
+            color: var(--gray);
+            font-size: 18px;
+        }
+
+        .problems-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+        }
+
+        .problem-card {
+            background: linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%);
+            border: 1px solid rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 40px 32px;
+            transition: all 0.3s ease;
+        }
+
+        .problem-card:hover {
+            border-color: rgba(212, 165, 55, 0.3);
+            transform: translateY(-4px);
+        }
+
+        .problem-icon {
+            width: 56px;
+            height: 56px;
+            background: rgba(220, 53, 69, 0.1);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            margin-bottom: 24px;
+        }
+
+        .problem-card h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .problem-card p {
+            color: var(--gray);
+            font-size: 15px;
+        }
+
+        /* Solution Section */
+        .solution-section {
+            padding: 100px 0;
+            background: linear-gradient(180deg, var(--dark) 0%, var(--black) 100%);
+        }
+
+        .solution-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            align-items: center;
+        }
+
+        .solution-list {
+            list-style: none;
+        }
+
+        .solution-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            padding: 20px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .solution-list li:last-child {
+            border-bottom: none;
+        }
+
+        .check-icon {
+            width: 28px;
+            height: 28px;
+            background: linear-gradient(135deg, var(--green) 0%, var(--green-dark) 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .solution-list h4 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .solution-list p {
+            color: var(--gray);
+            font-size: 15px;
+        }
+
+        .solution-image {
+            background: linear-gradient(135deg, rgba(45, 138, 78, 0.1) 0%, rgba(212, 165, 55, 0.1) 100%);
+            border-radius: 24px;
+            padding: 48px;
+            text-align: center;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .google-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: var(--white);
+            padding: 16px 24px;
+            border-radius: 12px;
+            margin-bottom: 24px;
+        }
+
+        .google-badge img {
+            height: 32px;
+        }
+
+        .google-badge span {
+            color: var(--black);
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .solution-image h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            margin-bottom: 16px;
+        }
+
+        .solution-image p {
+            color: var(--gray);
+            margin-bottom: 32px;
+        }
+
+        .price-tag {
+            font-size: 48px;
+            font-weight: 700;
+            color: var(--gold);
+        }
+
+        .price-tag span {
+            font-size: 18px;
+            color: var(--gray);
+            font-weight: 400;
+        }
+
+        /* About Section */
+        .about-section {
+            padding: 100px 0;
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .about-image {
+            position: relative;
+        }
+
+        .about-photo {
+            width: 100%;
+            aspect-ratio: 1;
+            background: linear-gradient(135deg, var(--green) 0%, var(--green-dark) 100%);
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .about-photo-inner {
+            width: 85%;
+            height: 85%;
+            background: var(--dark);
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+        }
+
+        .about-photo-inner .icon {
+            font-size: 64px;
+        }
+
+        .about-photo-inner span {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            color: var(--gold);
+        }
+
+        .jamaica-flag {
+            position: absolute;
+            bottom: -12px;
+            right: -12px;
+            width: 60px;
+            height: 40px;
+            border-radius: 6px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+
+        .jamaica-flag .stripe {
+            height: 33.33%;
+        }
+
+        .jamaica-flag .stripe:nth-child(1) { background: #009B3A; }
+        .jamaica-flag .stripe:nth-child(2) { background: #FED100; }
+        .jamaica-flag .stripe:nth-child(3) { background: #000; }
+
+        .about-text h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(28px, 3vw, 36px);
+            margin-bottom: 24px;
+        }
+
+        .about-text h2 span {
+            color: var(--gold);
+        }
+
+        .about-text p {
+            color: var(--gray);
+            font-size: 17px;
+            margin-bottom: 16px;
+        }
+
+        .about-text p strong {
+            color: var(--white);
+        }
+
+        .about-location {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 24px;
+            color: var(--gold);
+            font-weight: 600;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            padding: 100px 0;
+            background: linear-gradient(135deg, var(--green-dark) 0%, var(--green) 50%, var(--green-dark) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            opacity: 0.5;
+        }
+
+        .cta-content {
+            text-align: center;
+            position: relative;
+            z-index: 2;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .cta-content h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(32px, 4vw, 48px);
+            margin-bottom: 20px;
+        }
+
+        .cta-content p {
+            font-size: 20px;
+            opacity: 0.9;
+            margin-bottom: 40px;
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .btn-white {
+            background: var(--white);
+            color: var(--green-dark);
+            padding: 18px 36px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 17px;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-white:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+        }
+
+        .btn-outline-white {
+            background: transparent;
+            color: var(--white);
+            padding: 16px 36px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 17px;
+            border-radius: 6px;
+            border: 2px solid var(--white);
+            transition: all 0.3s ease;
+        }
+
+        .btn-outline-white:hover {
+            background: var(--white);
+            color: var(--green-dark);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--black);
+            padding: 60px 0 30px;
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .footer-logo span {
+            font-family: 'Playfair Display', serif;
+            font-size: 20px;
+            color: var(--white);
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 32px;
+        }
+
+        .footer-links a {
+            color: var(--gray);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--gold);
+        }
+
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255,255,255,0.05);
+            color: var(--gray);
+            font-size: 14px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 16px;
+        }
+
+        .social-links a {
+            color: var(--gray);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: var(--gold);
+        }
+
+        /* Responsive */
+        @media (max-width: 968px) {
+            .hero-content {
+                grid-template-columns: 1fr;
+                gap: 60px;
+            }
+
+            .hero-visual {
+                order: -1;
+            }
+
+            .comparison-wrapper {
+                transform: none;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .problems-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .solution-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .about-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .about-image {
+                max-width: 300px;
+                margin: 0 auto;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .hero {
+                padding: 100px 0 60px;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 30px;
+            }
+
+            .stat-item h3 {
+                font-size: 36px;
+            }
+
+            .hero-cta {
+                flex-direction: column;
+            }
+
+            .btn-primary, .btn-secondary {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .footer-content {
+                flex-direction: column;
+                gap: 24px;
+                text-align: center;
+            }
+
+            .footer-links {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                gap: 16px;
+                text-align: center;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+
+            .btn-white, .btn-outline-white {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero-content > * {
+            animation: fadeInUp 0.8s ease forwards;
+        }
+
+        .hero-content > *:nth-child(1) { animation-delay: 0.1s; }
+        .hero-content > *:nth-child(2) { animation-delay: 0.3s; }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <div class="logo-icon">🌳</div>
+                <span class="logo-text">Coyaba Enterprises</span>
+            </a>
+            <a href="#contact" class="nav-cta">Get Started</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-badge">Google Workspace Partner</div>
+                    <h1>Your South Florida Business is Legit. <span>Then Look It.</span></h1>
+                    <p class="hero-subtitle">I help contractors, plumbers, electricians, and trade businesses move from @gmail to a real email & cloud system. In one afternoon.</p>
+                    <div class="hero-cta">
+                        <a href="https://instagram.com/dbtechguy" class="btn-primary" target="_blank">
+                            DM "GROWNUP" on Instagram →
+                        </a>
+                        <a href="#how-it-works" class="btn-secondary">See What's Included</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="comparison-wrapper">
+                        <div class="comparison-card before">
+                            <div class="comparison-label">Before</div>
+                            <div class="comparison-name">Carlos Martinez</div>
+                            <div class="comparison-company">Roofing LLC</div>
+                            <div class="comparison-email">carlosmartinezroofing1987@gmail.com</div>
+                        </div>
+                        <div class="comparison-card after">
+                            <div class="comparison-label">After</div>
+                            <div class="comparison-name">Carlos Martinez</div>
+                            <div class="comparison-company">Roofing LLC</div>
+                            <div class="comparison-email">carlos@martinezroofingmiami.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <section class="stats-bar">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>20+</h3>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat-item">
+                    <h3>500+</h3>
+                    <p>Businesses Migrated</p>
+                </div>
+                <div class="stat-item">
+                    <h3>Same</h3>
+                    <p>Day Setup</p>
+                </div>
+                <div class="stat-item">
+                    <h3>100%</h3>
+                    <p>Local Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">The Problem</div>
+                <h2>Is Your Email Costing You Jobs?</h2>
+                <p>That "free" email might be the most expensive thing in your business.</p>
+            </div>
+            <div class="problems-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">📧</div>
+                    <h3>Landing in Spam</h3>
+                    <p>Your quotes and estimates are going straight to spam folders. Customers never even see them.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">🏚️</div>
+                    <h3>Looking Unprofessional</h3>
+                    <p>Would you trust a $15,000 job to someone with "plumber1987@gmail.com" on their card?</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">🤔</div>
+                    <h3>Forgettable Email</h3>
+                    <p>Customers can't remember your email to refer you. That's jobs walking out the door.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="solution-section" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">The Solution</div>
+                <h2>Everything You Need. Nothing You Don't.</h2>
+                <p>Professional email that works on your phone, syncs your calendar, and makes you look legit.</p>
+            </div>
+            <div class="solution-grid">
+                <ul class="solution-list">
+                    <li>
+                        <div class="check-icon">✓</div>
+                        <div>
+                            <h4>Your Own Domain</h4>
+                            <p>yourname@yourcompany.com — professional and memorable</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="check-icon">✓</div>
+                        <div>
+                            <h4>Email For Your Whole Team</h4>
+                            <p>Add employees with their own professional addresses</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="check-icon">✓</div>
+                        <div>
+                            <h4>Works On Your Phone</h4>
+                            <p>iPhone or Android — set up and working same day</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="check-icon">✓</div>
+                        <div>
+                            <h4>Calendar That Syncs</h4>
+                            <p>Never miss an appointment or double-book again</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="check-icon">✓</div>
+                        <div>
+                            <h4>All Your Old Emails Moved</h4>
+                            <p>We migrate everything — you don't lose a thing</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="check-icon">✓</div>
+                        <div>
+                            <h4>1-on-1 Training + 30-Day Support</h4>
+                            <p>I don't leave until you're comfortable</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="solution-image">
+                    <div class="google-badge">
+                        <svg height="32" viewBox="0 0 74 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.24 8.19v2.46h5.88c-.18 1.38-.64 2.39-1.34 3.1-.86.86-2.2 1.8-4.54 1.8-3.62 0-6.45-2.92-6.45-6.54s2.83-6.54 6.45-6.54c1.95 0 3.38.77 4.43 1.76L15.4 2.5C13.94 1.08 11.98 0 9.24 0 4.28 0 .11 4.04.11 9s4.17 9 9.13 9c2.68 0 4.7-.88 6.28-2.52 1.62-1.62 2.13-3.91 2.13-5.75 0-.57-.04-1.1-.13-1.54H9.24z" fill="#4285F4"/><path d="M25 6.19c-3.21 0-5.83 2.44-5.83 5.81 0 3.34 2.62 5.81 5.83 5.81s5.83-2.46 5.83-5.81c0-3.37-2.62-5.81-5.83-5.81zm0 9.33c-1.76 0-3.28-1.45-3.28-3.52 0-2.09 1.52-3.52 3.28-3.52s3.28 1.43 3.28 3.52c0 2.07-1.52 3.52-3.28 3.52z" fill="#EA4335"/><path d="M53.58 7.49h-.09c-.57-.68-1.67-1.3-3.06-1.3C47.53 6.19 45 8.72 45 12c0 3.26 2.53 5.81 5.43 5.81 1.39 0 2.49-.62 3.06-1.32h.09v.81c0 2.22-1.19 3.41-3.1 3.41-1.56 0-2.53-1.12-2.93-2.07l-2.22.92c.64 1.54 2.33 3.43 5.15 3.43 2.99 0 5.52-1.76 5.52-6.05V6.49h-2.42v1zm-2.93 8.03c-1.76 0-3.1-1.5-3.1-3.52 0-2.05 1.34-3.52 3.1-3.52 1.74 0 3.1 1.5 3.1 3.54.01 2.03-1.36 3.5-3.1 3.5z" fill="#4285F4"/><path d="M38 6.19c-3.21 0-5.83 2.44-5.83 5.81 0 3.34 2.62 5.81 5.83 5.81s5.83-2.46 5.83-5.81c0-3.37-2.62-5.81-5.83-5.81zm0 9.33c-1.76 0-3.28-1.45-3.28-3.52 0-2.09 1.52-3.52 3.28-3.52s3.28 1.43 3.28 3.52c0 2.07-1.52 3.52-3.28 3.52z" fill="#FBBC05"/><path d="M58 .24h2.51v17.57H58z" fill="#34A853"/><path d="M68.26 15.52c-1.3 0-2.22-.59-2.82-1.76l7.77-3.21-.26-.66c-.48-1.3-1.96-3.7-4.97-3.7-2.99 0-5.48 2.35-5.48 5.81 0 3.26 2.46 5.81 5.76 5.81 2.66 0 4.2-1.63 4.84-2.57l-1.98-1.32c-.66.96-1.56 1.6-2.86 1.6zm-.18-7.15c1.03 0 1.91.53 2.2 1.28l-5.25 2.17c0-2.44 1.73-3.45 3.05-3.45z" fill="#EA4335"/></svg>
+                        <span>Workspace Partner</span>
+                    </div>
+                    <h3>Starting At</h3>
+                    <p>One-time setup + affordable monthly</p>
+                    <div class="price-tag">$75 <span>/user migration</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="about-photo">
+                        <div class="about-photo-inner">
+                            <span class="icon">👨🏾‍💻</span>
+                            <span>Drew</span>
+                        </div>
+                    </div>
+                    <div class="jamaica-flag">
+                        <div class="stripe"></div>
+                        <div class="stripe"></div>
+                        <div class="stripe"></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h2>20+ Years Making South Florida <span>Businesses Look Legit</span></h2>
+                    <p>I'm Drew. I've spent my entire IT career helping businesses look as professional online as they are in person.</p>
+                    <p>I know trade businesses. <strong>You're great at what you do</strong> — plumbing, electrical, HVAC, roofing. But technology isn't your thing, and that's okay. That's where I come in.</p>
+                    <p>I make the switch from Gmail to professional email <strong>simple</strong>. No tech jargon. No complicated setup. Just you@yourcompany.com working on your phone by the end of the day.</p>
+                    <p>As a <strong>Google Workspace Partner</strong>, I don't just set it up — I train you, support you for 30 days, and make sure you're comfortable before I'm done.</p>
+                    <div class="about-location">
+                        📍 Based in Miami • Serving Miami-Dade, Broward & Palm Beach
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="contact">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Look Professional?</h2>
+                <p>DM "GROWNUP" on Instagram for the 3-step upgrade. Let's get you set up this week.</p>
+                <div class="cta-buttons">
+                    <a href="https://instagram.com/dbtechguy" class="btn-white" target="_blank">
+                        📩 DM @dbtechguy on Instagram
+                    </a>
+                    <a href="mailto:drew@coyabaenterprises.com" class="btn-outline-white">
+                        Email Me Directly
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-icon">🌳</div>
+                    <span>Coyaba Enterprises</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#how-it-works">What's Included</a>
+                    <a href="#contact">Contact</a>
+                    <a href="https://instagram.com/dbtechguy" target="_blank">Instagram</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Coyaba Enterprises LLC. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/dbtechguy" target="_blank">Instagram</a>
+                    <a href="https://threads.net/dbtechguy" target="_blank">Threads</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
